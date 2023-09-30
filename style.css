@@ -21,3 +21,121 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+body {
+    background-color: rgb(223, 221, 221);
+}
+
+.produkt_info {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    width: 670px;
+    height: 440px;
+    margin: 50px auto;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.obrazkova {
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    flex-basis: 50%;
+    flex-shrink: 0;
+    border-radius: 10px 0 0 10px;
+    color: white;
+}
+
+.popisna {
+    flex-basis: 50%;
+    flex-shrink: 0;
+    border-radius: 0 10px 10px 0;
+    background-color: white;
+}
+
+.cast {
+    padding: 30px;
+}
+
+.bota {
+    position: absolute;
+    left: -12%;
+    top: 33%;
+}
+
+h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+}
+
+h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.obrazkova p {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.stitek {
+    position: absolute;
+    right: 365px;
+    bottom: 30px;
+    color: white;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.zaruka {
+    font-size: 12px;
+}
+
+.popisek_boty {
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.info_o_bote {
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #06d7c1;
+}
+
+.seznam_velikosti {
+    display: flex;
+    padding-left: 0;
+}
+
+.seznam_velikosti li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.vybrane {
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    position: absolute;
+    left: 365px;
+    bottom: 30px;
+    background-color: rgb(224, 84, 29);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
