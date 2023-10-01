@@ -72,6 +72,7 @@ h1 {
 h2 {
     font-size: 14px;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .obrazkova p {
@@ -135,7 +136,7 @@ a {
     bottom: 30px;
     background-color: rgb(224, 84, 29);
     color: white;
-    padding: 10px 30px;
+    padding: 15px 30px;
     border-radius: 5px;
     text-transform: uppercase;
 }
